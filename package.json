@@ -1,0 +1,33 @@
+{
+  "name": "server-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@gear-js/api": "0.41.1",
+    "@polkadot/api": "15.9.2",
+    "@polkadot/keyring": "^12.6.2",
+    "@polkadot/types": "15.9.2",
+    "@polkadot/types-known": "10.13.1",
+    "@polkadot/wasm-crypto": "^7.3.2",
+    "bn.js": "^5.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "sails-js": "0.3.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.14.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  }
+}
