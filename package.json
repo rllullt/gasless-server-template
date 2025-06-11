@@ -15,17 +15,17 @@
     "node": ">=18.x"
   },
   "dependencies": {
-    "@gear-js/api": "0.41.1",
-    "@polkadot/api": "15.9.2",
+    "@gear-js/api": "0.42.0",
+    "@polkadot/api": "16.0.1",
     "@polkadot/keyring": "^12.6.2",
-    "@polkadot/types": "15.9.2",
+    "@polkadot/types": "16.0.1",
     "@polkadot/types-known": "10.13.1",
     "@polkadot/wasm-crypto": "^7.3.2",
     "bn.js": "^5.2.2",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
-    "sails-js": "0.3.1"
+    "sails-js": "0.4.2"
   },
   "devDependencies": {
     "@types/express": "^5.0.1",
