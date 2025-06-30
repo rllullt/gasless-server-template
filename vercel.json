@@ -11,5 +11,12 @@
       "src": "/(.*)",
       "dest": "src/index.ts"
     }
-  ]
+  ],
+  "build": {
+    "env": {
+      "VERCEL_NPM_RUN_INSTALL": "false",
+      "VERCEL_YARN_RUN_INSTALL": "true"
+    },
+    "installCommand": "yarn install"
+  }
 }
